@@ -32,7 +32,7 @@ text {
 
             var w = window.innerWidth,
                 h = window.innerHeight,
-                r1 = h / 2,
+                r1 = Math.min(w, h) / 2;
                 r_scale = 0.4,
                 r0 = r1 * r_scale + r1*(1.0 - r_scale)/2;
 
